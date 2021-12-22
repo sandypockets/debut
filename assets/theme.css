@@ -1402,7 +1402,8 @@ ol {
     .rte ul ul ul {
       list-style: square outside; }
 
-.rte a:not(.btn) {
+/* Add spr-summary-actions-newreview to :not */
+.rte a:not(.btn) a:not(.spr-summary-actions-newreview) {
   border-bottom: 1px solid currentColor;
   padding-bottom: 1px; }
 
